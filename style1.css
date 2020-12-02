@@ -1,0 +1,592 @@
+@font-face {
+  font-family: myfont;
+  src: url(./Banana_Grotesk-/BananaGrotesk-Extralight.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: myfont;
+}
+
+.main2 {
+  background: rgb(178, 120, 84);
+}
+
+.main {
+  position: relative;
+  left: 40px;
+  width: 1440px;
+  height: 810px;
+  background: #fde3d9;
+  flex: 1;
+}
+
+.cat-n-dog-logo-copy img {
+  height: 40px;
+  width: 155px;
+  position: absolute;
+  left: 61px;
+  top: 45px;
+}
+
+.background1 img {
+  position: absolute;
+  left: 720px;
+  height: 810px;
+  width: 720px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.menu {
+  position: relative;
+  top: 41px;
+  left: 1171px;
+  flex: 1;
+  height: 54px;
+  width: 210px;
+  text-align: right;
+}
+
+.contact {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 27px;
+  width: 46px;
+  color: #f7f7f7;
+  font-family: myfont;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.careers {
+  position: absolute;
+  top: 0;
+  right: 65px;
+  height: 27px;
+  width: 44px;
+  color: #f7f7f7;
+  font-family: myfont;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.blog {
+  position: absolute;
+  top: 0;
+  right: 129px;
+  height: 27px;
+  width: 26px;
+  color: #f7f7f7;
+  font-family: myfont;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.about {
+  position: absolute;
+  top: 0;
+  right: 175;
+  height: 27px;
+  width: 35px;
+  color: #f7f7f7;
+  font-family: myfont;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.bullets {
+  position: relative;
+  top: 450px;
+  left: 830px;
+  height: 153px;
+  width: 220px;
+}
+
+.nav {
+  height: 8px;
+  width: 25px;
+  position: relative;
+  top: 145px;
+  left: 0px;
+}
+
+.rectangle {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  box-sizing: border-box;
+  height: 5px;
+  width: 5px;
+  border: 1px solid #fee7de;
+  border-radius: 2.5px;
+}
+
+.rectangle2 {
+  position: absolute;
+  left: 17px;
+  bottom: 0px;
+  height: 8px;
+  width: 8px;
+  border-radius: 4px;
+  background-color: #fee7de;
+}
+
+.type-text {
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  flex: 1;
+  height: 27px;
+  width: 80px;
+  color: #ffffff;
+  font-family: myfont;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.12px;
+  line-height: 27px;
+}
+
+.lorem-ipsum-is-simpl {
+  position: absolute;
+  top: 42px;
+  height: 81px;
+  width: 220px;
+  color: #ffe8df;
+  font-family: myfont;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.11px;
+  line-height: 27px;
+}
+
+.social {
+  position: absolute;
+  top: 744px;
+  left: 1235px;
+  height: 16px;
+  width: 145px;
+}
+
+.facebook {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 15.24px;
+  width: 7.13px;
+  /* background-color: #ffffff; */
+}
+
+.instagram {
+  position: absolute;
+  top: 0px;
+  left: 38.1px;
+  height: 15.24px;
+  width: 15.24px;
+  /* background-color: #ffffff; */
+}
+
+.twitter {
+  position: absolute;
+  top: 0px;
+  left: 83.43px;
+  height: 12.72px;
+  width: 15.24px;
+  /* background-color: #ffffff; */
+}
+
+.linkedin {
+  position: absolute;
+  top: 0px;
+  left: 129.19px;
+  height: 15.37px;
+  width: 15.24px;
+  /* background-color: #ffffff; */
+}
+
+.title {
+  position: absolute;
+  top: 355px;
+  left: 60px;
+  height: 418px;
+  width: 571px;
+}
+
+.lorem-ipsum-is-simp {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 162px;
+  width: 571px;
+  color: #3e3e3e;
+  font-family: myfont;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 54px;
+}
+
+.lorem-ipsum-has-been {
+  position: relative;
+  top: 20px;
+  height: 108px;
+  width: 440px;
+  color: #6d6d6d;
+  font-family: myfont;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.11px;
+  line-height: 27px;
+}
+
+.buttons {
+  position: absolute;
+  top: 338px;
+  height: 80px;
+  width: 379px;
+}
+
+.google-play-badge img {
+  position: absolute;
+  top: 13.33px;
+  left: 172px;
+  height: 54px;
+  width: 175.72px;
+}
+
+.app-store-badge img {
+  position: absolute;
+  top: 13.33px;
+  height: 54px;
+  width: 160px;
+}
+
+.prev {
+  position: fixed;
+  bottom: 50%;
+  left: 0px;
+  cursor: pointer;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  cursor: pointer;
+  position: fixed;
+  bottom: 50%;
+  right: 0px;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dotnav {
+  position: absolute;
+  top: 642px;
+  left: 830px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+
+.box {
+  position: fixed;
+  top: 203px;
+  left: 473px;
+  width: 495px;
+  height: 405px;
+  background: #FCEBE5 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+  display: none;
+}
+
+.heading {
+  position: fixed;
+  top: 254px;
+  left: 511px;
+  width: 419px;
+  height: 45px;
+  font: var(--unnamed-font-style-normal) normal bold 42px/47px Banana Grotesk;
+  text-align: left;
+  font: normal normal bold 42px/47px Banana Grotesk;
+  letter-spacing: 2.1px;
+  color: #495057;
+  opacity: 1;
+}
+
+.text2 {
+  position: fixed;
+  top: 300px;
+  left: 511px;
+  width: 284px;
+  height: 14px;
+  font: var(--unnamed-font-style-normal) normal 300 12px/38px Banana Grotesk;
+  text-align: left;
+  font: normal normal 300 12px/38px Banana Grotesk;
+  letter-spacing: 0.48px;
+  color: #ADB5BD;
+  opacity: 1;
+}
+
+.namedataentry {
+  position: fixed;
+  top: 339px;
+  left: 509px;
+  width: 420px;
+  height: 45px;
+  background: #F8F9FA 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.emaildataentry {
+  position: fixed;
+  top: 395px;
+  left: 509px;
+  width: 420px;
+  height: 45px;
+  background: #F8F9FA 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.name {
+  position: fixed;
+  top: 355px;
+  left: 539px;
+  width: 34px;
+  height: 14px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/38px Banana Grotesk;
+  text-align: left;
+  font: normal normal normal 12px/38px Banana Grotesk;
+  letter-spacing: 0.48px;
+  color: #495057;
+  opacity: 1;
+}
+
+.dname {
+  position: fixed;
+  top: 355px;
+  left: 638px;
+  width: 123px;
+  height: 14px;
+  font: var(--unnamed-font-style-normal) normal 300 12px/38px Banana Grotesk;
+  text-align: left;
+  font: normal normal 300 12px/38px Banana Grotesk;
+  letter-spacing: 0.48px;
+  color: #ADB5BD;
+  opacity: 1;
+}
+
+.email {
+  position: fixed;
+  top: 411px;
+  left: 539px;
+  width: 37px;
+  height: 14px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/38px Banana Grotesk;
+  text-align: left;
+  font: normal normal normal 12px/38px Banana Grotesk;
+  letter-spacing: 0.48px;
+  color: #495057;
+  opacity: 1;
+}
+
+.demail {
+  position: fixed;
+  top: 411px;
+  left: 639px;
+  width: 176px;
+  height: 14px;
+  font: var(--unnamed-font-style-normal) normal 300 12px/38px Banana Grotesk;
+  text-align: left;
+  font: normal normal 300 12px/38px Banana Grotesk;
+  letter-spacing: 0.48px;
+  color: #ADB5BD;
+  opacity: 1;
+}
+
+.msg {
+  position: fixed;
+  top: 466px;
+  left: 539px;
+  width: 52px;
+  height: 14px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/38px Banana Grotesk;
+  text-align: left;
+  font: normal normal normal 12px/38px Banana Grotesk;
+  letter-spacing: 0.48px;
+  color: #495057;
+  opacity: 1;
+}
+
+.dmsg {
+  position: fixed;
+  top: 466px;
+  left: 639px;
+  width: 196px;
+  height: 14px;
+  font: var(--unnamed-font-style-normal) normal 300 12px/38px Banana Grotesk;
+  text-align: left;
+  font: normal normal 300 12px/38px Banana Grotesk;
+  letter-spacing: 0.48px;
+  color: #ADB5BD;
+  opacity: 1;
+}
+
+.msgdataentry {
+  position: fixed;
+  top: 450px;
+  left: 509px;
+  width: 420px;
+  height: 45px;
+  background: #F8F9FA 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.compmsg {
+  position: fixed;
+  top: 563px;
+  left: 509px;
+  width: 218px;
+  height: 14px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/38px Banana Grotesk;
+  text-align: left;
+  font: normal normal normal 12px/38px Banana Grotesk;
+  letter-spacing: 0.48px;
+  color: #495057;
+  opacity: 1;
+}
+
+.submitentry {
+  position: fixed;
+  top: 510px;
+  left: 824px;
+  width: 105px;
+  height: 45px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 39px;
+  opacity: 1;
+}
+
+.submit {
+  position: fixed;
+  top: 525px;
+  left: 855px;
+  width: 42px;
+  height: 14px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/38px Banana Grotesk;
+  text-align: center;
+  font: normal normal normal 12px/38px Banana Grotesk;
+  letter-spacing: 0.48px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.face {
+  position: fixed;
+  top: 567px;
+  left: 874px;
+  width: 11px;
+  height: 11px;
+  opacity: 1;
+}
+
+.insta {
+  position: fixed;
+  top: 567px;
+  left: 896px;
+  width: 11px;
+  height: 11px;
+  opacity: 1;
+}
+
+.twitt {
+  position: fixed;
+  top: 567px;
+  left: 918px;
+  width: 11px;
+  height: 11px;
+  opacity: 1;
+}
+
+.Close {
+  position: fixed;
+  top: 222px;
+  left: 931px;
+  width: 17px;
+  height: 17px;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  opacity: 1;
+}
